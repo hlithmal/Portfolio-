@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html" class="logo">Portfolio.</a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="Service.html">Service</a></li>
+      <li class="active"><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="contact">
+    <h1>Contact Me</h1>
+    <p>Have a project or just want to say hi? Send me a message!</p>
+
+    <div class="contact-container">
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <div>
+          <i class="fa-solid fa-envelope"></i>
+          <h3>Email</h3>
+          <p>hlithmal.2006@gmail.com
+</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-phone"></i>
+          <h3>Phone</h3>
+          <p>+94 763 416 654</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-location-dot"></i>
+          <h3>Location</h3>
+          <p>Colombo, Sri Lanka</p>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <form class="contact-form" id="contactForm">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+        <p class="success-msg" id="successMsg">Message sent successfully!</p>
+      </form>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

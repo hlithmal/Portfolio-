@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services - Portfolio.</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    />
+    </head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo">Portfolio.</a>
+
+        <button id="like-btn" class="like-btn">
+            <i class="fa-solid fa-thumbs-up"></i>
+        </button>
+        <audio id="clickSound" src="click-sound.mp3" preload="auto"></audio>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="Portfolio.html">Portfolio</a></li>
+            <li class="active"><a href="Service.html">Service</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="bars-animation">
+        <div class="bar" style="--i:6"></div>
+        <div class="bar" style="--i:5"></div>
+        <div class="bar" style="--i:4"></div>
+        <div class="bar" style="--i:3"></div>
+        <div class="bar" style="--i:2"></div>
+        <div class="bar" style="--i:1"></div>
+    </div>
+
+    <section class="services">
+        <div class="services-container">
+            <div class="service-card" style="--i: 1;"> 
+                <i class="fa-solid fa-code"></i>
+                <h3>Frontend Development</h3>
+                <p>
+                    Bringing designs to life with clean, responsive, and
+                    accessible code. Specializing in HTML5, CSS3, JavaScript,
+                    and modern frameworks.
+                </p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+
+            <div class="service-card" style="--i: 2;">
+                <i class="fa-solid fa-palette"></i>
+                <h3>Graphic Design</h3>
+                <p>
+                    Creating stunning visuals for branding, social media,
+                    marketing materials, and UI/UX mockups. Focus on impact and
+                    brand consistency.
+                </p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+
+            <div class="service-card" style="--i: 3;">
+                <i class="fa-solid fa-video"></i>
+                <h3>Video Editing</h3>
+                <p>
+                    Professional post-production for YouTube, short films, and
+                    corporate videos. Includes color grading, motion graphics,
+                    and sound mixing.
+                </p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+
+            <div class="service-card" style="--i: 4;">
+                <i class="fa-brands fa-youtube"></i>
+                <h3>Content Creation</h3>
+                <p>
+                    Full-service content strategy, scripting, production, and
+                    optimization for the YouTube platform. Let's grow your audience.
+                </p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
